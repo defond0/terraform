@@ -96,7 +96,6 @@ type Config struct {
 }
 
 type AWSClient struct {
-<<<<<<< 8ec62180b4d5887746fc5537e34e5f6649f0840b
 	cfconn                *cloudformation.CloudFormation
 	cloudfrontconn        *cloudfront.CloudFront
 	cloudtrailconn        *cloudtrail.CloudTrail
@@ -143,7 +142,7 @@ type AWSClient struct {
 	codecommitconn        *codecommit.CodeCommit
 	ssmconn               *ssm.SSM
 	wafconn               *waf.WAF
-	iotconn              *iot.IoT
+	iotconn               *iot.IoT
 }
 
 // Client configures and returns a fully initialized AWSClient
